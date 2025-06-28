@@ -9,7 +9,7 @@
       margin: 0;
       padding: 0;
       font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(-45deg, #000000, #2c2c2c, #161642, #1f1f1f);
+      background: linear-gradient(95deg, #000000, #2c2c2c, #161642, #1f1f1f);
       background-size: 400% 400%;
       animation: gradientBG 8s ease-in-out infinite;
       color: #ffffff;
@@ -57,7 +57,7 @@
     }
 
     .navbar a:hover {
-      color: #e3c232;
+      color: #dbbf42;
     }
 
     .section {
@@ -68,7 +68,7 @@
     }
 
     h2 {
-      color: #e3c232;
+      color: #dbbf42;
       font-size: clamp(1.5rem, 4vw, 2.3rem);
     }
 
@@ -111,13 +111,13 @@
         padding: 30px 5px;
       }
     }
+
     .typed-word {
       color: #fa2550;
     }
   </style>
 </head>
 <body>
-  <div class="background"></div>
   <header class="header">
     <h1>Cherian Jacob</h1>
     <p class="typed-subtitle"><span class="typed-word"></span></p>
@@ -127,47 +127,147 @@
     <a href="#about">About</a>
     <a href="#skills">Skills</a>
     <a href="#projects">Projects</a>
+    <a href="#internship">Internship</a>
     <a href="#contact">Contact</a>
   </nav>
 
   <section id="about" class="section">
-    <h2>About Me</h2>
-    <p>Graduate in B.Tech Electronics and Computer Engineering with a passion for embedded systems and web development. Experienced in AI/ML projects, UI design, and real-time systems integration.</p>
-  </section>
+  <h2>About Me</h2>
+  <p>Graduate in B.Tech Electronics and Computer Engineering from KTU University with strong analytical skills in embedded systems and web technologies. Pursued a minor in Robotics and Automation.</p>
+  <p>Committed to continuous learning and growth. Dedicated to enhancing skills through impactful projects and bringing fresh perspectives to real-world technical challenges.</p>
+</section>
 
   <section id="skills" class="section">
-    <h2>Skills</h2>
-    <ul>
-      <li>Programming: C, Python, Java, PHP</li>
-      <li>Web: HTML, CSS, JavaScript</li>
-      <li>Backend: SQL, Firebase</li>
-      <li>Embedded: Verilog, Arduino, Tinkercad, EasyEDA</li>
-      <li>Tools: Figma, Canva, VS Code</li>
-    </ul>
-  </section>
+  <h2>Skills</h2>
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+    <div class="project" style="flex: 1 1 200px; min-width: 200px;">
+      <h3>Programming</h3>
+      <ul>
+        <li>C</li>
+        <li>Python</li>
+        <li>Java</li>
+        <li>PHP</li>
+      </ul>
+    </div>
+    <div class="project" style="flex: 1 1 200px; min-width: 200px;">
+      <h3>Web</h3>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </div>
+    <div class="project" style="flex: 1 1 200px; min-width: 200px;">
+      <h3>Backend</h3>
+      <ul>
+        <li>SQL</li>
+        <li>Firebase</li>
+      </ul>
+    </div>
+    <div class="project" style="flex: 1 1 200px; min-width: 200px;">
+      <h3>Embedded</h3>
+      <ul>
+        <li>Verilog</li>
+        <li>Arduino</li>
+        <li>Tinkercad</li>
+        <li>EasyEDA</li>
+      </ul>
+    </div>
+    <div class="project" style="flex: 1 1 200px; min-width: 200px;">
+      <h3>Tools</h3>
+      <ul>
+        <li>Figma</li>
+        <li>Canva</li>
+        <li>VS Code</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
   <section id="projects" class="section">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Smart Blood Bank System</h3>
-      <p>Real-time donor & blood tracking using Arduino, LM35, GSM, and ESP modules.</p>
-    </div>
-    <div class="project">
-      <h3>Employee Salary Prediction</h3>
-      <p>AI/ML model built in Python to estimate salaries based on roles and experience.</p>
-    </div>
-    <div class="project">
-      <h3>IC Tester for 74xx Series</h3>
-      <p>Automated logic gate simulation and testing using Arduino and EasyEDA PCB.</p>
-    </div>
-  </section>
+  <h2>Projects</h2>
 
-  <section id="contact" class="section">
-    <h2>Contact</h2>
-    <p><img class="contact-logo" src="https://img.icons8.com/ios-filled/50/ffffff/gmail.png"/>Email: <a href="mailto:cherianjacobaronnil@gmail.com">cherianjacobaronnil@gmail.com</a></p>
-    <p><img class="contact-logo" src="https://img.icons8.com/ios-filled/50/ffffff/github.png"/>GitHub: <a href="https://github.com/Cherian-11">Cherian-11</a></p>
-    <p><img class="contact-logo" src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png"/>LinkedIn: <a href="https://linkedin.com/in/cherian-jacob-9a4a5127b">Cherian Jacob</a></p>
-  </section>
+  <div class="project">
+    <h3 style="color: #dbbf42;">Employee Salary Prediction using AI/ML Algorithms <em>(June 2025 - July 2025)</em></h3>
+    <ul>
+      <li>Built a salary prediction model using machine learning algorithms based on employee attributes such as experience, education, and job role.</li>
+      <li>Utilized Python for model development and NumPy for efficient data handling and preprocessing.</li>
+      <li>Implemented and tested the project in Visual Studio Code (VS Code) environment.</li>
+    </ul>
+  </div>
+
+  <div class="project">
+    <h3 style="color: #dbbf42;">Automated Blood Bank System with Real-Time Monitoring <em>(Sept 2024 - April 2025)</em></h3>
+    <ul>
+      <li>Designed and implemented a smart blood bank system combining both software and hardware components using Arduino Uno.</li>
+      <li>Created a website for secure donor registration, real-time blood stock tracking, and temperature monitoring using an LM35 sensor.</li>
+      <li>Integrated ESP Wi-Fi and GSM modules for real-time communication between hospitals and donors.</li>
+    </ul>
+  </div>
+
+  <div class="project">
+    <h3 style="color: #dbbf42;">Arduino-Based Smart Vacuum Cleaner Robot <em>(July 2024 - Dec 2024)</em></h3>
+    <ul>
+      <li>Built a smart vacuum cleaner robot using Arduino UNO, integrating IR and ultrasonic sensors for obstacle detection and avoidance.</li>
+      <li>Controlled BO motors using the L298N motor driver module, along with a servo motor for smooth and precise directional navigation.</li>
+      <li>Tested and simulated design logic in Tinkercad to validate functionality and component behavior.</li>
+    </ul>
+  </div>
+
+  <div class="project">
+    <h3 style="color: #dbbf42;">An IC Tester for 74xx Series using Arduino <em>(Feb 2024 - June 2024)</em></h3>
+    <ul>
+      <li>Designed and developed an automated IC tester to verify the functionality of 74xx series ICs by simulating logic gate operations.</li>
+      <li>Programmed the testing logic using the Arduino IDE for real-time IC output validation.</li>
+      <li>Created and simulated the circuit and PCB layout using EasyEDA, followed by fabrication for hardware implementation.</li>
+    </ul>
+  </div>
+
+  <div class="project">
+    <h3 style="color: #dbbf42;">Gym Membership Management System Website <em>(Oct 2023 - Dec 2023)</em></h3>
+    <ul>
+      <li>Developed a responsive web application for gym membership management using HTML, CSS, and JavaScript, with features including user registration, progress tracking, and profile management.</li>
+      <li>Integrated Firebase Authentication for secure user login and data handling.</li>
+      <li>Deployed the project on GitHub, making it accessible for live testing and demonstration.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="internship" class="section">
+  <h2>Internship</h2>
+
+  <div class="project">
+    <h3 style="color: #dbbf42;">IBM SkillsBuild, Edunet Foundation <em>(June - July 2025)</em></h3>
+    <ul>
+      <li>Artificial Intelligence & Machine Learning</li>
+      <li>Built projects using Python and machine learning algorithms.</li>
+      <li>Strengthened understanding of AI models through mentorship and collaboration.</li>
+    </ul>
+  </div>
+
+  <div class="project">
+    <h3 style="color: #dbbf42;">Keltron Knowledge Centre, Kottayam <em>(May 2023)</em></h3>
+    <ul>
+      <li>Web Development Intern</li>
+      <li>Developed interactive prototypes using HTML, CSS, JavaScript and PHP.</li>
+      <li>Enhanced UI designs in collaboration with developers.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="poster-projects" class="section">
+  <h2>Poster Project Works</h2>
+  <p>You can view my poster presentations and related visual project works in this folder:
+    <a href="https://drive.google.com/drive/folders/1AjwJPdrj1dbPodF49jcOXJBFCqdHS3vJ?usp=drive_link" target="_blank" style="color: #dbbf42; text-decoration: underline;">Google Drive – Poster Projects</a>
+  </p>
+</section>
+
+<section id="contact" class="section">
+  <h2>Contact</h2>
+  <p><img class="contact-logo" src="https://img.icons8.com/ios-filled/50/ffffff/gmail.png"/>Email: <a href="mailto:cherianjacobaronnil@gmail.com" style="color: #dbbf42;">cherianjacobaronnil@gmail.com</a></p>
+  <p><img class="contact-logo" src="https://img.icons8.com/ios-filled/50/ffffff/github.png"/>GitHub: <a href="https://github.com/Cherian-11" style="color: #dbbf42;">Cherian-11</a></p>
+  <p><img class="contact-logo" src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png"/>LinkedIn: <a href="https://linkedin.com/in/cherian-jacob-9a4a5127b" style="color: #dbbf42;">Cherian Jacob</a></p>
+</section>
 
   <footer class="footer">
     <p>&copy; 2025 Cherian Jacob | Built with HTML, CSS & JavaScript</p>
